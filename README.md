@@ -1,1 +1,1 @@
-# Manual
+# Manual 모음집
