@@ -29,8 +29,9 @@ fun main(args: Array<String>){
 6. 상단 메뉴에서 Run > Run > HelloWorldKt 선택.
 7. 하단 Run에 Hello World가 출력된 것 확인 가능.
 ![kt3](https://user-images.githubusercontent.com/96712990/153898543-c6ef6fee-9909-4b5e-8d9d-9fc73426305f.JPG)
-
+<br><br><br><br>
 *****
+*각주*<br>
 <b id="f1"><sup>1</sup></b>  ![systemvariables](https://user-images.githubusercontent.com/96712990/153868239-dd11be08-f9b7-44f8-8dd1-7223ffc796fb.JPG)[↩](#a1)   
 <b id="f1"><sup>2</sup></b>  ![systemvariables2](https://user-images.githubusercontent.com/96712990/153885532-9d879694-269e-4ff6-a533-61fbf2cb648b.JPG)[↩](#a1)<br>
 <b id="f1"><sup>3</sup></b>  ![kt1](https://user-images.githubusercontent.com/96712990/153892997-a93f6c26-94fc-4a6d-b1d0-6700e7717e97.JPG)[↩](#a1)<br>
