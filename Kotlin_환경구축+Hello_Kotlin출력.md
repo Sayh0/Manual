@@ -12,14 +12,27 @@ Community 버전 설치는 www.jetbrains.com/idea/download/#section=windows 에�
 <br><br>
 3. IntelliJ 실행 후 New project 생성 시 코틀린 설정 후 실행.<br>
 <br><br>
+*****
 ### IntelliJ에서 Kotlin으로 프로젝트를 생성하여, "Hello Kotlin" 출력해보기
-<br><br><br><br><br><br><br><br><br><br>
+*****
+
 1. IntelliJ에서 File > New > Project 선택.<br>
-2. 왼쪽 메뉴에서 Java 선택.<br>
-2-1. Project SDK는 위에서 설치한 1.8 ver 선택. 아마 맨 밑에 Detected SDK 해서 C:\Program Files\Zulu\zulu-8\ 경로를 선택할 수 있을것<sup id="a1">[3](#f1)</sup><br>
+2. 왼쪽 메뉴에서 Java 선택. Project SDK는 위에서 설치한 1.8 ver 선택. 아마 맨 밑에 Detected SDK 해서 C:\Program Files\Zulu\zulu-8\ 경로를 선택할 수 있을 것<sup id="a1">[3](#f1)</sup>.<br>
+3. 프로젝트 이름 입력 후 Finish. 우선 프로젝트 이름은 HelloWorld로 기입.
+4. 프로젝트 빌드 후 `HelloWorld\src` 위치에 마우스 오른쪽 클릭 new > Kotlin Class/File 선택. File 선택, 상단에 HelloWorld 입력<sup id="a1">[4](#f1)</sup>.
+5. 아래 소스 코드 입력.
+```
+fun main(args: Array<String>){
+    println("Hello World")
+}
+```
+6. 상단 메뉴에서 Run > Run > HelloWorldKt 선택.
+7. 하단 Run에 Hello World가 출력된 것 확인 가능.
+![kt3](https://user-images.githubusercontent.com/96712990/153898543-c6ef6fee-9909-4b5e-8d9d-9fc73426305f.JPG)
 
 *****
 <b id="f1"><sup>1</sup></b>  ![systemvariables](https://user-images.githubusercontent.com/96712990/153868239-dd11be08-f9b7-44f8-8dd1-7223ffc796fb.JPG)[↩](#a1)   
 <b id="f1"><sup>2</sup></b>  ![systemvariables2](https://user-images.githubusercontent.com/96712990/153885532-9d879694-269e-4ff6-a533-61fbf2cb648b.JPG)[↩](#a1)<br>
-<b id="f1"><sup>3</sup></b>  ![kt1](https://user-images.githubusercontent.com/96712990/153892997-a93f6c26-94fc-4a6d-b1d0-6700e7717e97.JPG)[↩](#a1)
+<b id="f1"><sup>3</sup></b>  ![kt1](https://user-images.githubusercontent.com/96712990/153892997-a93f6c26-94fc-4a6d-b1d0-6700e7717e97.JPG)[↩](#a1)<br>
+<b id="f1"><sup>4</sup></b>  ![kt2](https://user-images.githubusercontent.com/96712990/153897901-85047bbe-eed3-48eb-9174-0462dcefe2ae.JPG)[↩](#a1)<br>
 
