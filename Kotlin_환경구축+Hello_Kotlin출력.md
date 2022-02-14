@@ -13,7 +13,7 @@ Community 버전 설치는 www.jetbrains.com/idea/download/#section=windows 에�
 3. IntelliJ 실행 후 New project 생성 시 코틀린 설정 후 실행.<br>
 <br><br>
 ### IntelliJ에서 Kotlin으로 프로젝트를 생성하여, "Hello Kotlin" 출력해보기
-<br>
+<br><br><br><br><br><br><br><br><br><br>
 1. IntelliJ에서 File > New > Project 선택.<br>
 2. 왼쪽 메뉴에서 Java 선택.<br>
 2-1. Project SDK는 위에서 설치한 1.8 ver 선택. 아마 맨 밑에 Detected SDK 해서 C:\Program Files\Zulu\zulu-8\ 경로를 선택할 수 있을것<sup id="a1">[3](#f1)</sup><br>
