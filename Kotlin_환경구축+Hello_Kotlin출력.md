@@ -8,4 +8,5 @@
 IntelliJ 실행 후 New project 생성 시 코틀린 설정 후 실행.
 
 ## 번외
-intelliJ에서 Kotlin으로 프로젝트를 생성하여, "Hello Kotlin" 출력하기
+intelliJ에서 Kotlin으로 프로젝트를 생성하여, "Hello Kotlin" 출력해보기
+---
