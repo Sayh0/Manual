@@ -10,7 +10,9 @@ git config --global user.email "이메일 주소"
 ```
 git init
 ```
-![1  git init](https://user-images.githubusercontent.com/96712990/176862727-0384f82e-09e7-47be-b74a-d7d3dbd862ec.JPG)<br>
+
+![1  git init](https://user-images.githubusercontent.com/96712990/176862727-0384f82e-09e7-47be-b74a-d7d3dbd862ec.JPG)
+<br>
 <br>
 3. 생성 후 현재 상태를 확인하려면 git status를 입력한다.<br>
 ```
@@ -20,6 +22,14 @@ git status
 현재는 아무것도 하지 않은 상태여서 no commit yet이라고 출력된다.<br>
 <br>
 4. add 로 파일을 git에 업데이트해보자.<br>
+```
+git add 파일명.확장자
+```
+하나의 특정한 파일이 아닌 전부 올리고 싶다면
+```
+git add .
+```
+
 ![3  git add(only onefile)](https://user-images.githubusercontent.com/96712990/176862984-ac44a14c-d341-4bde-923a-87cc8215077b.JPG)<br>
 우선 파일 하나만 업로드(보통은 git add .를 쓰긴 함)<br>
 <br>
