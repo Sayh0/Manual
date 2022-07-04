@@ -62,7 +62,27 @@ git commit -m "commit 메세지"
 ![7 git status(after modifying file)](https://user-images.githubusercontent.com/96712990/176863818-4f13f532-15b9-4abc-a432-df1cb0cb9a05.JPG)
 <br>
 *수정내역이 없음을 의미한다.*
-
-8. 
+<br>
+<br>
+8. 파일 추가 / 수정 후 add 없이 commit 을 진행하려고 하면 오류가 발생한다. add > commit 순서를 기억하자.
+<br>
+![8  add 없이 commit 했을 경우 오류](https://user-images.githubusercontent.com/96712990/177077528-ee15a4cf-53be-4bbd-a084-fe83775bba6c.JPG)
+<br>
+*수정내역이 있음을 빨간 글씨로 알려주고 있다.
+<br>
+9. add 후 다시 commit 을 진행하면 정상적으로 진행되는 것을 확인할 수 있다.
+<br>
+[9  add 후 다시 commit 결과](https://user-images.githubusercontent.com/96712990/177077714-69124697-47ba-4bbc-bd1b-00f76344bfc9.JPG)
+<br>
+<br>
+10. git log 커맨드를 입력하면 commit의 기록을 확인할 수 있다.
+<br>
+![10  git log](https://user-images.githubusercontent.com/96712990/177078142-b8e18c77-ad9c-4499-903f-26a2f7627ed2.JPG)
+<br>
+*그동안 수정했던 파일의 기록 확인 가능
+<br>
+![11  log에서 각 commit의 식별자  보통 너무 길어서 앞의 7자리만 씀](https://user-images.githubusercontent.com/96712990/177078760-a83fcb3c-8332-4ab8-a1cd-be3fe0add7c6.JPG)
+<br>
+*각 commit 의 식별자를 확인할 수 있다. 보통 길어서 앞의 7자리만 쓴다.
 
 
